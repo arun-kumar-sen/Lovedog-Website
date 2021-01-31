@@ -1,0 +1,203 @@
+
+body
+/* giving whole as similar fonts */
+{
+  font-family: 'Montserrat-black', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family: "Montserrat-bold";
+}
+p
+{
+  color: #8f8f8f;
+}
+
+/* HEADINGS */
+.Big-Heading
+{
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  margin: none none none 100px;
+
+}
+.section-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* CONTAINERS */
+.container-fluid
+{
+  padding: 7% 15%;
+}
+/* SECTION BACKGROUND-COLOR */
+.coloured-section
+{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section
+{
+background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar
+/* high level div */
+{
+  padding:0 0 4.5rem 0;
+
+}
+.nav-item
+{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+.download-btn
+{
+  margin: 5% 3% 0 0;
+}
+/* TITLE SECTION */
+/* #title
+{
+  text-align: left;
+} */
+/* Here see the syntax just here i want to give diff padding so done this */
+#title .container-fluid
+{
+  padding: 3% 15% 7% 15%;
+  text-align: left;
+  /* merged above title here */
+}
+
+/* TITLE IMAGE */
+.dog-image
+{
+  width: 220px;
+  transform:rotate(25deg);
+  margin-top: 20px;
+  position: absolute;
+  /* for getting feature section on top of image */
+
+}
+/* check icon */
+/* FEATURE SECTION */
+.fas fa-check-circle
+{
+  font-weight: bold;
+}
+.features
+{
+  margin: 0 200px 0 200px;
+}
+.feature-title
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#features
+{
+
+  position: relative;
+  /* because it will keep the HTML flow , by setting it to absolute it wont be in HTML flow */
+  z-index: 1;
+  /* z-index only works when element is positioned */
+}
+/* applly common word in class to do once */
+.icon
+{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+/* pseudo clas */
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials
+{
+  background-color: #ef8172;
+}
+.testimonial-text
+{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image
+{
+  /* make image circular */
+  border-radius: 100%;
+  /* change size of image */
+  width: 20%;
+  margin: 20px;
+}
+
+#press
+{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.press-images
+{
+  width: 15%;
+  margin: 15px 15px 50px 10px;
+}
+
+/* pricing section */
+.Dog-breed
+{
+  font-weight: bold;
+}
+
+#pricing
+{
+  padding: 100px;
+}
+.price-text
+{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+@media (max-width:1000px)
+/* width 1000px or smaller  */
+{
+  #title
+  {
+    text-align: center;
+  }
+  .dog-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#footer
+{
+  background-color: #fff;
+}
+.footer-icons
+{
+  margin:20px 5px;
+}
