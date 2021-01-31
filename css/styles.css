@@ -21,6 +21,8 @@ p
   line-height: 1.5;
   font-size: 3rem;
   margin: none none none 100px;
+  text-align: left;
+
 
 }
 .section-heading
@@ -82,7 +84,7 @@ background-color: #fff;
 #title .container-fluid
 {
   padding: 3% 15% 7% 15%;
-  text-align: left;
+
   /* merged above title here */
 }
 
@@ -94,7 +96,6 @@ background-color: #fff;
   margin-top: 20px;
   position: absolute;
   /* for getting feature section on top of image */
-
 }
 /* check icon */
 /* FEATURE SECTION */
@@ -189,6 +190,7 @@ background-color: #fff;
   {
     position: static;
     transform: rotate(0);
+
   }
 
 }
