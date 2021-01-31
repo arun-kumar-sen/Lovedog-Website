@@ -23,13 +23,22 @@ p
   margin: none none none 100px;
   text-align: left;
 
-
 }
+.cta-Heading
+{
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  margin: none none none 100px;
+  text-align: center;
+}
+
 .section-heading
 {
   font-size: 3rem;
   line-height: 1.5;
 }
+
 /* CONTAINERS */
 .container-fluid
 {
@@ -74,6 +83,12 @@ background-color: #fff;
 .download-btn
 {
   margin: 5% 3% 0 0;
+  /* text-align: left; */
+}
+.download-btn-cta
+{
+  margin: 5% 3% 0 0;
+  /* text-align: center; */
 }
 /* TITLE SECTION */
 /* #title
@@ -84,6 +99,7 @@ background-color: #fff;
 #title .container-fluid
 {
   padding: 3% 15% 7% 15%;
+  text-align: left;
 
   /* merged above title here */
 }
@@ -182,7 +198,8 @@ background-color: #fff;
 @media (max-width:1000px)
 /* width 1000px or smaller  */
 {
-  #title
+  /* #title */
+  #title .container-fluid
   {
     text-align: center;
   }
@@ -190,7 +207,6 @@ background-color: #fff;
   {
     position: static;
     transform: rotate(0);
-
   }
 
 }
